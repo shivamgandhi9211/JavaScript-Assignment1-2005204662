@@ -1,0 +1,72 @@
+/* Reset some default styles for consistency */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color */
+body {
+    font-family: 'Helvetica', sans-serif; /* Changed the font family */
+    background-color: #f4f4f4;
+}
+
+/* Style the header with new fonts */
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Changed the font family */
+    background-color: #ffee32;
+    color: #0074D9;
+    padding: 20px 0;
+    padding-left: 60px;
+}
+
+/* Center the image and make it small */
+img {
+    max-width: 30%;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Style the main sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added a bit more shadow */
+}
+
+/* Style the buttons with new colors */
+button {
+    padding: 10px 20px;
+    background-color: #ffee32; /* Changed button color */
+    color: #000000;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease-in-out; /* Smooth button hover effect */
+}
+
+/* Style the paragraphs */
+p {
+    font-style: italic;
+    margin: 5px;
+}
+
+/* Style the story paragraph */
+#story {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Add hover effect to buttons */
+button:hover {
+    background-color: #0056b3; /* New color on hover */
+    color: #fff;
+}
